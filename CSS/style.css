@@ -24,6 +24,7 @@ nav a {
 }
 nav a:hover {
   transform: scale(1.1);
+  text-decoration: none;
 }
 main {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -87,5 +88,8 @@ footer a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+.bacToTop:hover{
     text-decoration: none;
 }
